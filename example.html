@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="jquery.sequentialLoad.js"></script>
+        <script type="text/javascript">
+        	$(function() {
+        		$('img, span').sequentialLoad();
+        	});
+        </script>
+        <style type="text/css">
+        	span {
+        		display: inline-block;
+        		background-image: url('gray.png');
+        	}
+        </style>
+    </head>
+    <body>
+    	
+    	<img src="gray.png" data-src="http://lorempixel.com/100/100/people/1/" width="100" height="100">
+    	<img src="gray.png" data-src="http://lorempixel.com/100/100/people/2/" width="100" height="100">
+    	<img src="gray.png" data-src="http://lorempixel.com/100/100/people/3/" width="100" height="100">
+    	<img src="gray.png" data-src="http://lorempixel.com/100/100/people/4/" width="100" height="100">
+    	<img src="gray.png" data-src="http://lorempixel.com/100/100/people/5/" width="100" height="100">
+
+    	<span data-src="http://lorempixel.com/100/100/people/6/" style="width: 100px; height: 100px"></span>
+    	<span data-src="http://lorempixel.com/100/100/people/7/" style="width: 100px; height: 100px"></span>
+    	<span data-src="http://lorempixel.com/100/100/people/8/" style="width: 100px; height: 100px"></span>
+    	<span data-src="http://lorempixel.com/100/100/people/9/" style="width: 100px; height: 100px"></span>
+    	<span data-src="http://lorempixel.com/100/100/people/10/" style="width: 100px; height:100px"></span>
+
+    </body>
+</html>
