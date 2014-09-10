@@ -14,7 +14,7 @@ Include jQuery and sequentialLoad in your code:
 Initialize the plugin:
 
 ```javascript
-$('img, span').sequentialLoad();
+$('img, div').sequentialLoad();
 ```
 
 Images to be loaded by this plugin are to be includded like this (I recommend to include the size attributes so browsers can render easily): 
